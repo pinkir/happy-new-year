@@ -98,3 +98,8 @@
 
 /* call now */
 
+.call{
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(../images/watch.png)
+}
