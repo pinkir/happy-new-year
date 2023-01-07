@@ -50,11 +50,13 @@
 /* failure section */
 .my-failures {
     display: flex;
+    gap: 100px;
+    text-align: left;
 }
 
 .person {
-    padding-top: 150px;
-    padding-left: 150px;
+    /* padding-top: 150px;
+    padding-left: 150px; */
 }
 
 .person-head {
