@@ -1,28 +1,33 @@
-*{
+* {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Work Sans', sans-serif;
+    ;
 }
+
 /* header */
-.header{
+.header {
     background-image: url(../images/banner/banner1.png);
     /* background-position: center; */
     background-size: cover;
-    text-align: right ;
+    text-align: right;
     padding-right: 100px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
-.header-title{
+
+.header-title {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.header-dis{
-    color:rgb(133, 131, 131);
+
+.header-dis {
+    color: rgb(133, 131, 131);
     font-size: 15px;
     margin-bottom: 10px;
 }
-.btn-primary{
+
+.btn-primary {
     color: rgb(255, 255, 255);
     background-color: darkorange;
     font-weight: 600;
@@ -32,30 +37,66 @@
     border-radius: 5px;
     border: 0;
 }
+
 /* failure section */
-.my-failures{
+.my-failures {
     display: flex;
 }
-.person{
+
+.person {
     padding-top: 150px;
     padding-left: 150px;
 }
-.person-head{
+
+.person-head {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 20px;
-    }
-.person-failures{
+}
+
+.person-failures {
     padding-top: 400px;
     padding-right: 100px;
     padding-left: 50px;
 }
-.person-dis{
+
+.person-dis {
     color: rgb(133, 131, 131);
     padding-bottom: 20px;
 }
-.li-text{
+
+.li-text {
     color: rgb(133, 131, 131);
     margin-bottom: 20px;
     list-style: square;
 }
+
+/* my plans */
+.plan-head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.my-plans {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+.plan-icon {
+    margin-left: 35px;
+    text-align: center
+}
+
+.plan-dis {
+    color: rgb(133, 131, 131);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* call now */
