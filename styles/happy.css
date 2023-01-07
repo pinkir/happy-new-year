@@ -205,7 +205,9 @@
         font-size: small;
     }
 
-.name .comment {
+#name, #comment {
+    padding: 10px 10px;
+    padding-right: 50px;
+    background-color: rgba(157, 143, 115, 0.377);
     border: none;
-    padding-bottom: 10px;
 }
