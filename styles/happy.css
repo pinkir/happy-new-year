@@ -32,3 +32,30 @@
     border-radius: 5px;
     border: 0;
 }
+/* failure section */
+.my-failures{
+    display: flex;
+}
+.person{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.person-head{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+    }
+.person-failures{
+    padding-top: 400px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.person-dis{
+    color: rgb(133, 131, 131);
+    padding-bottom: 20px;
+}
+.li-text{
+    color: rgb(133, 131, 131);
+    margin-bottom: 20px;
+    list-style: square;
+}
