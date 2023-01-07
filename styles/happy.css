@@ -116,13 +116,18 @@
 /* call now */
 
 .gradient {
-    margin: 50px 45px;
-    padding-top: 50px;
+    /* margin: 50px 45px;
+    padding-top: 50px; */
+    background-image: url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 60px;
 }
 
 .call {
     background-image: url(../images/watch.png);
-    padding: 70px 80px;
+    padding: 90px 100px;
+    border-radius: 8px;
     background-image: linear-gradient(90deg, rgba(120, 174, 227, 0.749) 0%, rgba(241, 91, 34, 0) 100%);
 }
 
