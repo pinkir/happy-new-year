@@ -79,20 +79,17 @@
     margin-bottom: 20px;
     padding-top: 60px;
 }
-
 .my-plans {
     text-align: center;
     display: flex;
-    position: absolute;
-    padding-left: 250px;
+    /* padding-left: 290px; */
     padding-top: 20px;
 }
-
 .plan-icon {
-    margin-left: 35px;
+    /* margin-left: 35px; */
+    margin: auto;
     text-align: center
 }
-
 .plan-dis {
     color: rgb(133, 131, 131);
     font-size: 20px;
@@ -100,3 +97,4 @@
 }
 
 /* call now */
+
