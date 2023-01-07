@@ -119,4 +119,44 @@
     font-size: 20px;
     padding-bottom: 20px;
 }
+/* section email */
 
+.email{
+    display: flex;
+    gap: 200px;
+    text-align: left;
+    background-color: black;
+    padding: 100px 50px;
+    }
+.future{
+    color: white;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.future-t{
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 35px;
+}
+.future-dis{
+    padding-bottom: 20px;
+}
+.icon{
+    padding-top: 20px;
+}
+.form{
+    color: white;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+#email-box{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    padding-right: 50px;
+    background-color: rgba(157, 143, 115, 0.377);
+    border: none;
+
+}
