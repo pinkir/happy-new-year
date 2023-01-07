@@ -5,6 +5,9 @@
 }
 
 /* header */
+.possible-color{
+    color: rgb(255, 140, 0);
+}
 .header {
     background-image: url(../images/banner/banner1.png);
     /* background-position: center; */
