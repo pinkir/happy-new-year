@@ -55,6 +55,7 @@
 }
 
 .person-failures {
+
     padding-top: 400px;
     padding-right: 100px;
     padding-left: 50px;
@@ -79,17 +80,20 @@
     margin-bottom: 20px;
     padding-top: 60px;
 }
+
 .my-plans {
     text-align: center;
     display: flex;
     /* padding-left: 290px; */
     padding-top: 20px;
 }
+
 .plan-icon {
     /* margin-left: 35px; */
     margin: auto;
     text-align: center
 }
+
 .plan-dis {
     color: rgb(133, 131, 131);
     font-size: 20px;
@@ -98,8 +102,21 @@
 
 /* call now */
 
-.call{
-    background-repeat: no-repeat;
-    text-align: center;
-    background-image: url(../images/watch.png)
+.gradient{
+    margin: 50px 45px;
+    padding-top: 50px;
 }
+.call{
+   background-image: url(../images/watch.png);
+   background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 50px 45px;
+    background-image: linear-gradient(90deg, rgba(120, 174, 227, 0.749) 0%, rgba(241, 91, 34, 0) 100%);
+}
+.call-title{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
