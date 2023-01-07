@@ -37,7 +37,8 @@
     border-radius: 5px;
     border: 0;
 }
-.btn-2{
+
+.btn-2 {
     color: darkorange;
     background-color: rgb(252, 252, 252);
     font-weight: 600;
@@ -47,16 +48,17 @@
     border-radius: 5px;
     border: 0;
 }
+
 /* failure section */
 .my-failures {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     text-align: left;
 }
 
 .person {
-    /* padding-top: 150px;
-    padding-left: 150px; */
+    padding-top: 150px;
+    padding-left: 150px;
 }
 
 .person-head {
@@ -113,56 +115,62 @@
 
 /* call now */
 
-.gradient{
+.gradient {
     margin: 50px 45px;
     padding-top: 50px;
 }
-.call{
-   background-image: url(../images/watch.png);
-   background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    padding: 50px 45px;
+
+.call {
+    background-image: url(../images/watch.png);
+    padding: 70px 80px;
     background-image: linear-gradient(90deg, rgba(120, 174, 227, 0.749) 0%, rgba(241, 91, 34, 0) 100%);
 }
-.call-title{
+
+.call-title {
     color: white;
     font-size: 20px;
     padding-bottom: 20px;
 }
+
 /* section email */
 
-.email{
+.email {
     display: flex;
     gap: 200px;
     text-align: left;
     background-color: black;
     padding: 100px 50px;
-    }
-.future{
+}
+
+.future {
     color: white;
     padding-left: 60px;
     margin-bottom: 25px;
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.future-t{
+
+.future-t {
     padding-bottom: 20px;
     font-weight: 800;
     font-size: 35px;
 }
-.future-dis{
+
+.future-dis {
     padding-bottom: 20px;
 }
-.icon{
+
+.icon {
     padding-top: 20px;
 }
-.form{
+
+.form {
     color: white;
     margin-bottom: 20px;
     margin-bottom: 20px;
 }
-#email-box{
+
+#email-box {
     margin-bottom: 25px;
     margin-top: 20px;
     padding: 10px 10px;
@@ -170,4 +178,34 @@
     background-color: rgba(157, 143, 115, 0.377);
     border: none;
 
+}
+
+/* share */
+.share {
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    background-color: darkorange;
+    padding: 50px;
+    text-align: left;
+}
+
+.share-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.share-dis{
+        padding-bottom: 20px;
+        padding-left: 60px;
+        text-align: left;
+        font-size: small;
+    }
+
+.name .comment {
+    border: none;
+    padding-bottom: 10px;
 }
